@@ -6,6 +6,7 @@ for i in range(1, n + 1):
 
     # Inner loop controls how many times the number is printed
     for j in range(i):
+        # Print i
         print(i, end=" ")
 
     # Move to the next row
