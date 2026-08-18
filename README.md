@@ -51,3 +51,15 @@ The objective of this task is to:
 
 ```bash
 python number_diamond_pattern.py
+
+## Output
+Enter number of rows: 5
+    1
+   123
+  12345
+ 1234567
+123456789
+ 1234567
+  12345
+   123
+    1
