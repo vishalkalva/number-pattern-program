@@ -1,33 +1,34 @@
-# 🔢 Task 2 - Number Pattern Generator
+# 🔷 Task 2 - Number Diamond Pattern
 
 ## 📌 About the Project
 
 This project was developed as part of my **Software Development Internship at Cognifyz Technologies**.
 
-The program generates a simple number pattern based on the number of rows entered by the user. It uses nested `for` loops to control the rows and the number of values printed in each row.
+The program generates a diamond-shaped number pattern based on the number of rows entered by the user. It uses nested `for` loops to control spaces and numbers and creates both the upper and lower sections of the diamond.
 
 ## 🎯 Objective
 
-The objective of this task is to practice:
+The objective of this task is to:
 
-- Loops
-- Nested loops
-- User input
-- Pattern generation
-- Basic Python logic
+- Select a number pattern.
+- Generate the selected pattern using Python.
+- Use loops to control the structure of the pattern.
+- Verify the correctness of the generated output.
 
 ## ⚙️ Features
 
-- 🔢 Accepts the number of rows from the user
-- 🔁 Uses nested `for` loops
-- 📊 Generates a number pattern dynamically
-- ✅ Works with different numbers of rows
-- 📝 Includes comments for code readability
+- 🔢 Accepts the number of rows from the user.
+- 🔷 Generates a diamond-shaped number pattern.
+- 🔁 Uses nested `for` loops.
+- ⬆️ Generates the upper half of the diamond.
+- ⬇️ Generates the lower half of the diamond.
+- ⬜ Controls spacing to create the diamond shape.
+- 🔢 Generates increasing and decreasing number sequences.
 
 ## 🛠️ Technologies Used
 
-- Python 3
-- VS Code
+- **Python 3**
+- **VS Code**
 
 ## 🧠 Python Concepts Used
 
@@ -39,6 +40,7 @@ The objective of this task is to practice:
 - `range()`
 - `print()`
 - `end` parameter
+- Incrementing and decrementing loop ranges
 
 ## ▶️ How to Run
 
@@ -48,4 +50,4 @@ The objective of this task is to practice:
 4. Run:
 
 ```bash
-python number_pattern.py
+python number_diamond_pattern.py
